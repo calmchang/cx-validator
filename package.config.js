@@ -6,8 +6,8 @@ module.exports = {
   // devtool: 'inline-source-map',//sourcemap模式
   entry: './src/validator.js',
   output: {
-    // libraryTarget:'umd',
-    // umdNamedDefine: true,
+    libraryTarget:'umd',
+    umdNamedDefine: true,
     path: path.resolve(__dirname, 'lib'),
     filename: 'validator.js'
   },

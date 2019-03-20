@@ -9,8 +9,8 @@ module.exports = {
   },
   entry: './test/test.js',
   output: {
-    // libraryTarget:'umd',
-    // umdNamedDefine: true,
+    libraryTarget:'umd',
+    umdNamedDefine: true,
     path: path.resolve(__dirname, 'dist'),
     filename: 'test.js'
   },
