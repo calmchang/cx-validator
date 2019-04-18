@@ -79,6 +79,11 @@ var list = {
 
 
 async function validator(rule,data,error,success){
+  if(!rule){
+    return {
+      message:"validator-不存在的校验规则",
+    };
+  }
   let val = new schema(rule);
   let ret = await new Promise((reslove,reject)=>{
     data=data||"";
