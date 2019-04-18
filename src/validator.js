@@ -70,7 +70,11 @@ var list = {
   test:{
     cid,
     mobileNum
-  }
+  },
+  imgCodeId:{imgCodeId},
+  imgCode:{imgCode},
+  mobileCode:{mobileCode},
+
 }
 
 
